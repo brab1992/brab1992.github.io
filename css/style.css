@@ -1,0 +1,193 @@
+* {
+	margin:0px;
+	padding:0px
+	}
+
+header {width:100%;
+        }
+
+/*-navigation on top and botom-*/
+
+#navBar {
+	height:29px;
+	width:900px;
+	margin-top:0px;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-left:auto;
+	background-color:white;
+	padding:10px 29px;
+	font-weight:bold;
+	font-size:19px;
+	text-align:center;
+	border-radius:10px;
+	box-shadow:1px 1px 1px white;
+	}
+	
+#navBar li {
+	display:inline;
+	padding-left:5px;
+	padding-right:5px;
+	}	
+
+#footer {
+	height:29px;
+	width:900px;
+	background-color:white;
+	padding:10px 29px;
+	margin-top:10px;
+	margin-right:auto;
+	margin-bottom:20px;
+	margin-left:auto;
+	border-radius:10px;
+	position:relative;
+	clear:both;
+	text-align:center;
+	font-weight:bold;
+	font-size:19px;
+	box-shadow:1px 1px 1px black;
+	}
+	
+#footer li {
+	display:inline;
+	padding-left:5px;
+	padding-right:5px;
+
+	}	
+
+footer p {
+	font-size:10px;
+	color:black;
+	text-align:center;
+	margin-top:-1px;
+	}	
+
+/*-Content-*/
+
+body {
+	margin-top:80px;
+	font-family:Tahoma,Geneva, sans-serif;
+	font-size:16px;
+	color:black;
+	background-image:url(background.png);	
+	}
+
+#container {
+	margin-left:auto;
+	margin-right:auto;
+	width:960px;
+	}	
+	
+#wrapper {
+	width:600px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:6px;
+	background-color:white;
+	border-radius:10px;
+	border:10px solid white;
+	float:right;
+	box-shadow:1px 1px 1px black;
+	}
+
+#wrapper figure  {
+	text-align:center;
+	margin-top:5px;
+	}
+
+h2 {
+	font-size:30px;
+	margin-bottom:10px;
+	padding-left:10px;
+	}
+
+p {
+	margin-top:15px;
+	}
+
+/*-aligning information-*/
+
+
+.left {
+	float:left;
+	margin-right:5px;
+	}	
+
+.right {
+	float:right;
+	margin:0px;
+	padding-right:11px;
+	}
+
+.center {
+	margin-left:auto;
+	margin-right:auto;
+	text-align:center;
+	}	
+
+/*-my images and lists-*/
+
+#Australia {
+	border:8px solid white;
+	box-shadow:1px 1px 1px black;
+	float:left;
+	margin-top:20px;
+	border-radius:10px;
+	margin-bottom:20px;
+	height:343px;
+	width:300px;
+	}
+
+ul {
+	list-style-type:none;
+}
+
+.link {
+	margin-top:15px;
+	margin-right:2px;
+	padding-bottom:50px;
+	height:45px;
+    float:right;
+	}
+
+.link img {
+	float:left;
+	border:4px solid black;
+	border-radius:10px;
+	}
+	
+figcaption {
+	padding:0px;
+    margin-bottom:10px;
+	}	
+	
+/*-specifics for page links, not actual links page-*/
+
+a {
+	color:black;
+	text-decoration:none;
+	}
+
+a:hover {
+	color:gray;
+	text-decoration:underline;
+	}
+	
+a:active {
+	font-weight:normal;
+	}
+
+.link a {
+	text-decoration:underline;
+	}
+
+p a {
+	text-decoration:underline;
+	}
+
+h1 {
+    font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans serif; 
+    font-size:72px;
+    width:100%;
+    font-weight:500;
+}
